@@ -137,7 +137,7 @@ const Navbar = () => {
                   },
                 }}
                 onClick={handleMenuClick}
-                endIcon={<ArrowDropDownIcon />} // Add the arrow icon here
+                endIcon={<ArrowDropDownIcon sx={{color:'#39DB4A'}} />} // Add the arrow icon here
 
               >
                 Menu
@@ -162,7 +162,7 @@ const Navbar = () => {
                   },
                 }}
                 onClick={handleServicesClick}
-                endIcon={<ArrowDropDownIcon />} // Add the arrow icon here
+                endIcon={<ArrowDropDownIcon sx={{color:'#39DB4A'}} />} // Add the arrow icon here
               >
                 Services
               </Button>
@@ -265,7 +265,7 @@ const Navbar = () => {
                   },
                 }}
                 onClick={handleMenuClick}
-                endIcon={<ArrowDropDownIcon />} // Add the arrow icon here
+                endIcon={<ArrowDropDownIcon sx={{color:'#39DB4A'}} />} // Add the arrow icon here
               >
                 Menu
               </Button>
@@ -296,7 +296,7 @@ const Navbar = () => {
               {/* Services Button with Dropdown */}
               <Button
                 onClick={handleServicesClick}
-                endIcon={<ArrowDropDownIcon />} // Add the arrow icon here
+                endIcon={<ArrowDropDownIcon sx={{color:'#39DB4A'}} />} // Add the arrow icon here
                 sx={{
                   color: "#000",
                   fontSize: "14px",
